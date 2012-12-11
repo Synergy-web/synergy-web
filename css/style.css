@@ -112,7 +112,7 @@ header {
 }
 
 .logo  {
-	height: 60px;
+	height: 90px;
 }
 
 .logo i{
@@ -2264,7 +2264,7 @@ form#newsletter input[type=submit] {
 @media only screen and (min-width: 960px) and (max-width: 1199px){
 	
 	header {
-		height: 64px;
+		height: 90px;
 	}
 
 	
