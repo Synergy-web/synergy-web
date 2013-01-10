@@ -775,7 +775,7 @@ html[xmlns] .slides {display: block;}
 /* Buttons
 =================================================================== */
 .button,
-input[type="button"] {
+input[type="button"],.field input#submit {
 	padding: 9px 12px;
 	display: inline-block;
 	border: 0px;
@@ -804,8 +804,8 @@ input[type="button"] {float: left;}
 .button.color:hover {background:#aaa;}
 
 /* Input Button */
-input[type="button"] {color:#fff; background:#72b626;}
-input[type="button"]:hover {background:#aaa}
+input[type="button"],.field input#submit {color:#fff; background:#72b626;}
+input[type="button"]:hover ,.field input#submit:hover{background:#aaa}
 
 .button.gray:hover, 
 .button.light:hover, 
@@ -1271,7 +1271,7 @@ ol li ol.childlist .comment-des {
 
 /* Contact Form
 =================================================================== */
-.field textarea {
+.field textarea ,.comment-form-comment textarea{
 	max-width: 97%;
 	min-width: 97%;
 	height: 130px;
