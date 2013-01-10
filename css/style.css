@@ -804,7 +804,7 @@ input[type="button"] {float: left;}
 .button.color:hover {background:#aaa;}
 
 /* Input Button */
-input[type="button"],.field input#submit {color:#fff; background:#72b626;}
+input[type="button"] {color:#fff; background:#72b626;}
 input[type="button"]:hover ,.field input#submit:hover{background:#aaa}
 
 .button.gray:hover, 
@@ -816,7 +816,7 @@ input[type="button"]:hover ,.field input#submit:hover{background:#aaa}
 .button.color {color:#fff; background:#29a9df;}
 .button.color:hover {background:#aaa;}
 
-input[type="button"] {
+input[type="button"],.field input#submit {
 	background: #29a9df;
 	color: #fff;
 }
@@ -1278,7 +1278,7 @@ ol li ol.childlist .comment-des {
 	margin: 5px 0 15px 0;
 }
 
-.field input {
+.field input ,.comment-form-author input,.comment-form-email input,.comment-form-url input{
 	width: 240px;
 	margin-bottom: 15px;
 }
