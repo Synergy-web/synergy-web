@@ -1176,7 +1176,7 @@ ol.commentlist,, #comments ol  {
 	margin: 0;
 }
 
-ol.commentlist li, #comments ol li {
+ol.commentlist li {
 	float:left;
 	border-top: 1px solid #e7e7e7;
 	padding: 25px 0 20px 0;
