@@ -1220,7 +1220,14 @@ ol li ol.childlist .comment-des {
 }
 #comments ol li article img{margin-right:10px;}
 #comments ol li{clear:both;}
-h3#reply-title{clear:both;}
+h3#reply-title{clear:both; padding:10px 0;}
+#comments ol{margin-left:0;}
+
+#respond{
+	clear:both;
+	margin:5px 0;
+}	
+
 .avatar {float:left}
 
 .comment-des{
