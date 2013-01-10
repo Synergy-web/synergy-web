@@ -1223,7 +1223,7 @@ ol li ol.childlist .comment-des {
 h3#reply-title{clear:both; padding:10px 0;}
 #comments ol{margin-left:0;}
 #comments ol li article h4{
-	font-weight:bold;
+	font-weight:bold !important;
 }
 #comments ol li article time a{color:#888888;}
 
