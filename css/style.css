@@ -1170,24 +1170,24 @@ input[type="button"],.field input#submit {
 	margin-top: -15px;
 }
 
-ol.commentlist {
+ol.commentlist,, #comments ol  {
 	float:left; 
 	width:100%;
 	margin: 0;
 }
 
-ol.commentlist li {
+ol.commentlist li, #comments ol li {
 	float:left;
 	border-top: 1px solid #e7e7e7;
 	padding: 25px 0 20px 0;
 }
 
-ol.commentlist li:first-child {
+ol.commentlist li:first-child,, #comments ol li:first-child {
 	border:none;
 	padding: 25px 0 0px 0;
 }
 
-ol.commentlist li {list-style: none;}
+ol.commentlist li, #comments ol li {list-style: none;}
 
 ol li ol.childlist{
 	float:right;
@@ -1218,7 +1218,8 @@ ol li ol.childlist .comment-des {
 	float:right;
 	width:89%;
 }
-
+#comments ol li article img{margin-right:10px;}
+#comments ol li{clear:both;}
 .avatar {float:left}
 
 .comment-des{
